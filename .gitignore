@@ -1,0 +1,53 @@
+# Eclipse workspace metadata
+.metadata/
+bin/
+tmp/
+
+# Eclipse project files
+*.classpath
+*.project
+*.settings/
+
+# Logs
+*.log
+
+# Compiled class files
+*.class
+
+# Maven target folder
+target/
+
+# IntelliJ IDEA (in case you use it later)
+*.iml
+.idea/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Eclipse workspace metadata
+.metadata/
+.settings/
+bin/
+tmp/
+
+# Eclipse project files
+*.classpath
+*.project
+
+# Maven target folder
+SecondSeleniumJavaProject/target/
+
+# Logs
+*.log
+
+# Compiled class files
+*.class
+
+# IntelliJ IDEA (in case you use it later)
+*.iml
+.idea/
+
+# OS files
+.DS_Store
+Thumbs.db
