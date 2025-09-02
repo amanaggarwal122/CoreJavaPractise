@@ -66,7 +66,21 @@ public class String1_ReverseString_CheckPalindrome_CountDuplicate {
 		
 		
 		//System.out.println("First Non repeating Character in given string : " +CharacterCount.containsValue(1));
-		
+		for(int i = 0 ; i <= input.length()-1 ; i++)
+		{
+			int value = CharacterCount.get(stringChars[i]);
+			if(value == 1 )
+			{
+				System.out.println("Non repeating character is  : " +stringChars[i] );
+			}
+			else
+				
+			{
+				System.out.println("this is a  repeating character : " + stringChars[i]);
+			}
+				
+			
+		}
 		
 		for(Map.Entry<Character, Integer> entry : CharacterCount.entrySet())
 		{
@@ -89,7 +103,7 @@ public class String1_ReverseString_CheckPalindrome_CountDuplicate {
 			if(CharacterCount.containsKey(vowel))
 			{
 				System.out.println("Input String have vowel in it   : " +vowel);
-				break;
+				//break;
 			}
 			else
 			{
