@@ -57,15 +57,9 @@
           <tags>persp.newWizSC:org.eclipse.ui.editors.wizards.UntitledTextFileWizard</tags>
           <tags>persp.perspSC:org.eclipse.jdt.ui.JavaBrowsingPerspective</tags>
           <tags>persp.perspSC:org.eclipse.debug.ui.DebugPerspective</tags>
-          <tags>persp.editorOnboardingImageUri:platform:/plugin/org.eclipse.jdt.ui/$nl$/icons/full/onboarding_jperspective.png</tags>
-          <tags>persp.editorOnboardingText:Open a file or drop files here to open them.</tags>
           <tags>persp.showIn:org.eclipse.jdt.ui.PackageExplorer</tags>
           <tags>persp.showIn:org.eclipse.team.ui.GenericHistoryView</tags>
           <tags>persp.showIn:org.eclipse.ui.navigator.ProjectExplorer</tags>
-          <tags>persp.editorOnboardingCommand:Find Actions$$$Ctrl+3</tags>
-          <tags>persp.editorOnboardingCommand:Show Key Assist$$$Ctrl+Shift+L</tags>
-          <tags>persp.editorOnboardingCommand:New$$$Ctrl+N</tags>
-          <tags>persp.editorOnboardingCommand:Open Type$$$Ctrl+Shift+T</tags>
           <tags>persp.viewSC:org.eclipse.mylyn.tasks.ui.views.tasks</tags>
           <tags>persp.newWizSC:org.eclipse.mylyn.tasks.ui.wizards.new.repository.task</tags>
           <tags>persp.actionSet:org.eclipse.debug.ui.breakpointActionSet</tags>
@@ -80,6 +74,12 @@
           <tags>persp.newWizSC:org.eclipse.jdt.junit.wizards.NewTestCaseCreationWizard</tags>
           <tags>persp.actionSet:org.eclipse.jdt.junit.JUnitActionSet</tags>
           <tags>persp.viewSC:org.eclipse.ant.ui.views.AntView</tags>
+          <tags>persp.editorOnboardingImageUri:platform:/plugin/org.eclipse.jdt.ui/$nl$/icons/full/onboarding_jperspective.png</tags>
+          <tags>persp.editorOnboardingText:Open a file or drop files here to open them.</tags>
+          <tags>persp.editorOnboardingCommand:Find Actions$$$Ctrl+3</tags>
+          <tags>persp.editorOnboardingCommand:Show Key Assist$$$Ctrl+Shift+L</tags>
+          <tags>persp.editorOnboardingCommand:New$$$Ctrl+N</tags>
+          <tags>persp.editorOnboardingCommand:Open Type$$$Ctrl+Shift+T</tags>
           <children xsi:type="basic:PartSashContainer" xmi:id="_9ltfsGFAEfCPfs-QYvkCbA" selectedElement="_9ltfsWFAEfCPfs-QYvkCbA" horizontal="true">
             <children xsi:type="basic:PartSashContainer" xmi:id="_9ltfsWFAEfCPfs-QYvkCbA" containerData="2500" selectedElement="_9ltfsmFAEfCPfs-QYvkCbA">
               <children xsi:type="basic:PartStack" xmi:id="_9ltfsmFAEfCPfs-QYvkCbA" elementId="left" containerData="6000" selectedElement="_9ltfs2FAEfCPfs-QYvkCbA">
@@ -375,7 +375,7 @@
       </children>
       <children xsi:type="menu:ToolBar" xmi:id="_9fUj0GFAEfCPfs-QYvkCbA" elementId="org.eclipse.ui.workbench.file">
         <tags>Draggable</tags>
-        <children xsi:type="menu:HandledToolItem" xmi:id="_9fXnIGFAEfCPfs-QYvkCbA" elementId="print" visible="false" iconURI="platform:/plugin/org.eclipse.ui/icons/full/etool16/print_edit.png" tooltip="Print" command="_9OWImmFAEfCPfs-QYvkCbA"/>
+        <children xsi:type="menu:HandledToolItem" xmi:id="_yJf4UIfSEfCJ6Pi0oLaitQ" elementId="print" visible="false" iconURI="platform:/plugin/org.eclipse.ui/icons/full/etool16/print_edit.png" tooltip="Print" command="_9OWImmFAEfCPfs-QYvkCbA"/>
       </children>
       <children xsi:type="menu:ToolBar" xmi:id="_9fUj0WFAEfCPfs-QYvkCbA" elementId="group.edit" toBeRendered="false">
         <tags>toolbarSeparator</tags>
@@ -383,8 +383,8 @@
       </children>
       <children xsi:type="menu:ToolBar" xmi:id="_9fUj02FAEfCPfs-QYvkCbA" elementId="org.eclipse.ui.workbench.edit">
         <tags>Draggable</tags>
-        <children xsi:type="menu:HandledToolItem" xmi:id="_9fYOMGFAEfCPfs-QYvkCbA" elementId="undo" iconURI="platform:/plugin/org.eclipse.ui/icons/full/etool16/undo_edit.png" tooltip="Undo" enabled="false" command="_9OTFS2FAEfCPfs-QYvkCbA"/>
-        <children xsi:type="menu:HandledToolItem" xmi:id="_9fYOMWFAEfCPfs-QYvkCbA" elementId="redo" iconURI="platform:/plugin/org.eclipse.ui/icons/full/etool16/redo_edit.png" tooltip="Redo" enabled="false" command="_9OTsZWFAEfCPfs-QYvkCbA"/>
+        <children xsi:type="menu:HandledToolItem" xmi:id="_yJhGcIfSEfCJ6Pi0oLaitQ" elementId="undo" iconURI="platform:/plugin/org.eclipse.ui/icons/full/etool16/undo_edit.png" tooltip="Undo" enabled="false" command="_9OTFS2FAEfCPfs-QYvkCbA"/>
+        <children xsi:type="menu:HandledToolItem" xmi:id="_yJhGcYfSEfCJ6Pi0oLaitQ" elementId="redo" iconURI="platform:/plugin/org.eclipse.ui/icons/full/etool16/redo_edit.png" tooltip="Redo" enabled="false" command="_9OTsZWFAEfCPfs-QYvkCbA"/>
       </children>
       <children xsi:type="menu:ToolBar" xmi:id="_9fUj1GFAEfCPfs-QYvkCbA" elementId="additions" toBeRendered="false">
         <tags>toolbarSeparator</tags>
@@ -405,7 +405,7 @@
       </children>
       <children xsi:type="menu:ToolBar" xmi:id="_9fVK4WFAEfCPfs-QYvkCbA" elementId="org.eclipse.ui.workbench.navigate">
         <tags>Draggable</tags>
-        <children xsi:type="menu:HandledToolItem" xmi:id="_9fY1QGFAEfCPfs-QYvkCbA" elementId="org.eclipse.ui.window.pinEditor" iconURI="platform:/plugin/org.eclipse.ui/icons/full/etool16/pin_editor.png" tooltip="Pin Editor" enabled="false" type="Check" command="_9OVhjGFAEfCPfs-QYvkCbA"/>
+        <children xsi:type="menu:HandledToolItem" xmi:id="_yJhthIfSEfCJ6Pi0oLaitQ" elementId="org.eclipse.ui.window.pinEditor" iconURI="platform:/plugin/org.eclipse.ui/icons/full/etool16/pin_editor.png" tooltip="Pin Editor" enabled="false" type="Check" command="_9OVhjGFAEfCPfs-QYvkCbA"/>
       </children>
       <children xsi:type="menu:ToolBar" xmi:id="_9fVK4mFAEfCPfs-QYvkCbA" elementId="group.editor" toBeRendered="false">
         <tags>toolbarSeparator</tags>
@@ -704,6 +704,10 @@
     <bindings xmi:id="_9OxmZmFAEfCPfs-QYvkCbA" keySequence="ALT+SHIFT+D T" command="_9OQpFWFAEfCPfs-QYvkCbA"/>
     <bindings xmi:id="_9OxmZ2FAEfCPfs-QYvkCbA" keySequence="ALT+SHIFT+D J" command="_9OVhhGFAEfCPfs-QYvkCbA"/>
     <bindings xmi:id="_9OxmaGFAEfCPfs-QYvkCbA" keySequence="ALT+SHIFT+D Q" command="_9OTsV2FAEfCPfs-QYvkCbA"/>
+    <bindings xmi:id="_x5FdwIfSEfCJ6Pi0oLaitQ" keySequence="ALT+SHIFT+X G" command="_x4gO84fSEfCJ6Pi0oLaitQ"/>
+    <bindings xmi:id="_x5GE0IfSEfCJ6Pi0oLaitQ" keySequence="ALT+SHIFT+X N" command="_x4gO9IfSEfCJ6Pi0oLaitQ"/>
+    <bindings xmi:id="_x5HS8IfSEfCJ6Pi0oLaitQ" keySequence="ALT+SHIFT+D G" command="_x4gO-YfSEfCJ6Pi0oLaitQ"/>
+    <bindings xmi:id="_x5H6AIfSEfCJ6Pi0oLaitQ" keySequence="ALT+SHIFT+D N" command="_x4gO8ofSEfCJ6Pi0oLaitQ"/>
   </bindingTables>
   <bindingTables xmi:id="_9OocdmFAEfCPfs-QYvkCbA" elementId="org.eclipse.jdt.ui.javaEditorScope" bindingContext="_9OaaEWFAEfCPfs-QYvkCbA">
     <bindings xmi:id="_9Oocd2FAEfCPfs-QYvkCbA" keySequence="CTRL+SHIFT+P" command="_9OU6pGFAEfCPfs-QYvkCbA"/>
@@ -1360,6 +1364,18 @@
     <persistedState key="originalCompatibilityViewBundle" value="org.eclipse.ui.workbench.texteditor"/>
     <tags>View</tags>
     <tags>categoryTag:General</tags>
+  </descriptors>
+  <descriptors xmi:id="_yHbbwIfSEfCJ6Pi0oLaitQ" elementId="org.testng.eclipse.ResultView" label="TestNG" iconURI="platform:/plugin/org.testng.eclipse/icons/full/main16/testng_blur.gif" tooltip="" category="Java" closeable="true" contributionURI="bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityView">
+    <persistedState key="originalCompatibilityViewClass" value="org.testng.eclipse.ui.TestRunnerViewPart"/>
+    <persistedState key="originalCompatibilityViewBundle" value="org.testng.eclipse"/>
+    <tags>View</tags>
+    <tags>categoryTag:Java</tags>
+  </descriptors>
+  <descriptors xmi:id="_yHcC0IfSEfCJ6Pi0oLaitQ" elementId="org.eclipse.unittest.ui.ResultView" label="Test Results" iconURI="platform:/plugin/org.eclipse.unittest.ui/icons/full/eview16/unit.png" tooltip="" category="Debug" closeable="true" contributionURI="bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityView">
+    <persistedState key="originalCompatibilityViewClass" value="org.eclipse.unittest.internal.ui.TestRunnerViewPart"/>
+    <persistedState key="originalCompatibilityViewBundle" value="org.eclipse.unittest.ui"/>
+    <tags>View</tags>
+    <tags>categoryTag:Debug</tags>
   </descriptors>
   <trimContributions xmi:id="_2r10UF9tEeO-yojH_y4TJA" elementId="org.eclipse.ui.ide.application.trimcontribution.QuickAccess" contributorURI="platform:/plugin/org.eclipse.ui.ide.application" toBeRendered="false" parentId="org.eclipse.ui.main.toolbar" positionInParent="last">
     <children xsi:type="menu:ToolControl" xmi:id="_76uUAF9tEeO-yojH_y4TJA" elementId="Spacer Glue" contributorURI="platform:/plugin/org.eclipse.ui.ide.application" contributionURI="bundleclass://org.eclipse.e4.ui.workbench.renderers.swt/org.eclipse.e4.ui.workbench.renderers.swt.LayoutModifierToolControl">
@@ -2371,6 +2387,22 @@
   <commands xmi:id="_9dXcA2FAEfCPfs-QYvkCbA" elementId="AUTOGEN:::org.eclipse.mylyn.tasks.ui.actions.view/org.eclipse.mylyn.tasks.ui.open.repositories.view" commandName="Show Task Repositories View" description="Show Task Repositories View" category="_9OOz9WFAEfCPfs-QYvkCbA"/>
   <commands xmi:id="_9dXcBGFAEfCPfs-QYvkCbA" elementId="AUTOGEN:::org.eclipse.mylyn.tasks.ui.actions.view/org.eclipse.mylyn.doc.legend.show.action" commandName="Show UI Legend" description="Show Tasks UI Legend" category="_9OOz9WFAEfCPfs-QYvkCbA"/>
   <commands xmi:id="_9dXcBWFAEfCPfs-QYvkCbA" elementId="AUTOGEN:::org.eclipse.mylyn.tasks.ui.actions.view/org.eclipse.mylyn.context.ui.actions.tasklist.focus" commandName="Focus on Workweek" description="Focus on Workweek" category="_9OOz9WFAEfCPfs-QYvkCbA"/>
+  <commands xmi:id="_x4gO8YfSEfCJ6Pi0oLaitQ" elementId="org.testng.eclipse.createClassAction" commandName="Create TestNG class" description="Create a TestNG class to test this class" category="_9OOz52FAEfCPfs-QYvkCbA"/>
+  <commands xmi:id="_x4gO8ofSEfCJ6Pi0oLaitQ" elementId="org.testng.eclipse.shortcut.debug" commandName="Debug TestNG Test" description="Debug TestNG Test" category="_9OOz7GFAEfCPfs-QYvkCbA"/>
+  <commands xmi:id="_x4gO84fSEfCJ6Pi0oLaitQ" elementId="org.testng.eclipse.shortcut.testngSuite.run" commandName="Run TestNG Suite" description="Run TestNG Suite" category="_9OOz7GFAEfCPfs-QYvkCbA"/>
+  <commands xmi:id="_x4gO9IfSEfCJ6Pi0oLaitQ" elementId="org.testng.eclipse.shortcut.run" commandName="Run TestNG Test" description="Run TestNG Test" category="_9OOz7GFAEfCPfs-QYvkCbA"/>
+  <commands xmi:id="_x4gO9YfSEfCJ6Pi0oLaitQ" elementId="org.eclipse.unittest.ui.gotoTest" commandName="Referring Tests" description="Referring Tests" category="_9OOz62FAEfCPfs-QYvkCbA"/>
+  <commands xmi:id="_x4gO9ofSEfCJ6Pi0oLaitQ" elementId="org.eclipse.unittest.ui.history" commandName="Test Sessions History" description="Test Sessions History" category="_9OOz9WFAEfCPfs-QYvkCbA"/>
+  <commands xmi:id="_x4gO94fSEfCJ6Pi0oLaitQ" elementId="org.testng.eclipse.shortcut.rerunFailed" commandName="Rerun Failed TestNG Test" description="Rerun the failed TestNG Test" category="_9OOz7GFAEfCPfs-QYvkCbA"/>
+  <commands xmi:id="_x4gO-IfSEfCJ6Pi0oLaitQ" elementId="org.eclipse.unittest.ui.UnitTestShortcut.rerunFailedCases" commandName="Rerun Unit Test - Failures only" description="Rerun Unit Test - Failures only" category="_9OOz7GFAEfCPfs-QYvkCbA"/>
+  <commands xmi:id="_x4gO-YfSEfCJ6Pi0oLaitQ" elementId="org.testng.eclipse.shortcut.testngSuite.debug" commandName="Debug TestNG Suite" description="Debug TestNG Suite" category="_9OOz7GFAEfCPfs-QYvkCbA"/>
+  <commands xmi:id="_x4gO-ofSEfCJ6Pi0oLaitQ" elementId="org.testng.eclipse.shortcut.rerunLast" commandName="Rerun TestNG Test" description="Rerun the last TestNG Test" category="_9OOz7GFAEfCPfs-QYvkCbA"/>
+  <commands xmi:id="_x4g2AIfSEfCJ6Pi0oLaitQ" elementId="org.eclipse.unittest.ui.UnitTestShortcut.rerunLast" commandName="Rerun Unit Test" description="Rerun Unit Test" category="_9OOz7GFAEfCPfs-QYvkCbA"/>
+  <commands xmi:id="_x4g2AYfSEfCJ6Pi0oLaitQ" elementId="org.testng.eclipse.convertToYamlAction" commandName="Convert to YAML" description="Convert the TestNG Suite XML file to YAML" category="_9OOz9WFAEfCPfs-QYvkCbA"/>
+  <commands xmi:id="_x4g2AofSEfCJ6Pi0oLaitQ" elementId="org.eclipse.unittest.ui.UnitTestShortcut.run" commandName="Run Unit Test" description="Run Unit Test" category="_9OOz7GFAEfCPfs-QYvkCbA"/>
+  <commands xmi:id="_x4g2A4fSEfCJ6Pi0oLaitQ" elementId="org.eclipse.unittest.ui.UnitTestShortcut.debug" commandName="Debug Unit Test" description="Debug Unit Test" category="_9OOz7GFAEfCPfs-QYvkCbA"/>
+  <commands xmi:id="_x4g2BIfSEfCJ6Pi0oLaitQ" elementId="org.testng.eclipse.convertAction" commandName="Convert to TestNG" description="Convert the selection to TestNG" category="_9OOz52FAEfCPfs-QYvkCbA"/>
+  <commands xmi:id="_yGu4MIfSEfCJ6Pi0oLaitQ" elementId="AUTOGEN:::Bug575970.rulerActions/Bug575970.doubleClickBreakpointAction" commandName="Not Used" category="_9OOz9WFAEfCPfs-QYvkCbA"/>
   <addons xmi:id="_9NwStGFAEfCPfs-QYvkCbA" elementId="org.eclipse.e4.core.commands.service" contributorURI="platform:/plugin/org.eclipse.platform" contributionURI="bundleclass://org.eclipse.e4.core.commands/org.eclipse.e4.core.commands.CommandServiceAddon"/>
   <addons xmi:id="_9NwStWFAEfCPfs-QYvkCbA" elementId="org.eclipse.e4.ui.contexts.service" contributorURI="platform:/plugin/org.eclipse.platform" contributionURI="bundleclass://org.eclipse.e4.ui.services/org.eclipse.e4.ui.services.ContextServiceAddon"/>
   <addons xmi:id="_9NwStmFAEfCPfs-QYvkCbA" elementId="org.eclipse.e4.ui.bindings.service" contributorURI="platform:/plugin/org.eclipse.platform" contributionURI="bundleclass://org.eclipse.e4.ui.bindings/org.eclipse.e4.ui.bindings.BindingServiceAddon"/>
